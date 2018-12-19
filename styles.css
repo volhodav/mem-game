@@ -22,7 +22,7 @@ body {
 }
 .memory-card {
   width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
+  height: calc(30% - 10px);
   margin: 5px;
   position: relative;
   transform: scale(1);
@@ -50,10 +50,10 @@ body {
   transform: rotateY(180deg);
 }
 .toptext{
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -30px;
+  margin-bottom: -80px;
   padding: 10px 10px 0 10px;
   width: 640px;
   text-align: center;
@@ -78,9 +78,9 @@ body {
   padding: 10px 13px;
   border: 5px solid #323232;
   border-radius: 50%;
-  font-size: 50px;
+  font-size: 33px;
   text-decoration: none;
-  margin-top: -3%;
+  margin-top: 7%;
   color: #2e3131;
   outline: none;
 }
