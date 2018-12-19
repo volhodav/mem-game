@@ -80,9 +80,10 @@ body {
   border-radius: 50%;
   font-size: 33px;
   text-decoration: none;
-  margin-top: 7%;
+  margin-top: 4.5%;
   color: #2e3131;
   outline: none;
+  position: relative;
 }
 .resetButton i {
   color: #2e3131;
