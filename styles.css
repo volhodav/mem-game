@@ -11,6 +11,7 @@ body {
 .game-div {
   height: 80vh;
   display: flex;
+  user-select: none;
 }
 .memory-game {
   width: 640px;
@@ -28,6 +29,7 @@ body {
   transform: scale(1);
   transform-style: preserve-3d;
   transition: .5s;
+  cursor: pointer;
 }
 .memory-card:active {
   transform: scale(.97);
