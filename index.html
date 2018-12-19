@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="toptext">
+      <h1><i class="fas fa-brain"></i> Card Game</h1>
+      <!-- <p>Video guide: <a class="button" href="https://www.youtube.com/watch?v=ZniVgo8U7ek" target="_blank">HERE</a></p>
+      <p>GitHub repo: <a class="button" href="https://github.com/code-sketch/memory-game/" target="_blank">HERE</a></p> -->
+    </div>
+    <div class="game-div" id="gameDiv">
+      <section class="memory-game">
+        <div class="memory-card" data-framework="bear">
+          <img class="front-face" src="img/bear.svg" alt="Bear">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="bear">
+          <img class="front-face" src="img/bear.svg" alt="Bear">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="cubes">
+          <img class="front-face" src="img/cubes.svg" alt="Cubes">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="cubes">
+          <img class="front-face" src="img/cubes.svg" alt="Cubes">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="dinosaur">
+          <img class="front-face" src="img/dinosaur.svg" alt="Dinosaur">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="dinosaur">
+          <img class="front-face" src="img/dinosaur.svg" alt="Dinosaur">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="ember">
+          <img class="front-face" src="img/doll.svg" alt="doll">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="ember">
+          <img class="front-face" src="img/doll.svg" alt="doll">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="duck">
+          <img class="front-face" src="img/duck.svg" alt="Duck">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="duck">
+          <img class="front-face" src="img/duck.svg" alt="Duck">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="rings">
+          <img class="front-face" src="img/rings.svg" alt="Rings">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+        <div class="memory-card" data-framework="rings">
+          <img class="front-face" src="img/rings.svg" alt="Rings">
+          <img class="back-face" src="img/girl.svg" alt="Girl">
+        </div>
+      </section>
+    </div>
+    <div class="bottomtext">
+      <button class="resetButton" onclick="reloadGame()"><i class="fas fa-undo-alt"></i></button>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
