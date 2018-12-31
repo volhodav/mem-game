@@ -17,10 +17,7 @@ function flipCard () {
 
     return;
   }
-
-  // second Click
   secondCard = this;
-
   checkForMatch();
 }
 
